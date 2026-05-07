@@ -1,5 +1,6 @@
 ---
 version: "1.0"
+last-updated: "2026-05-06"
 name: AskSia
 description: AskSia is an AI-powered study assistant web application that positions itself as a personal learning companion — built around a confident indigo-purple primary ({colors.action}), clean neutral surfaces, and an Inter-based typography system optimised for long-form reading and chat interfaces. The design language pairs near-white container layers ({colors.surface-container-lowest}) with precisely tiered border tokens to create clear depth without heavy shadow. Semantic color roles (text, surface, border, icon) alias cleanly into a full 50-900 base palette, giving every component a predictable, accessible contract. Core surfaces lean on soft neutrals; interactive elements snap to the primary indigo (#4e4df4) and its hover/active variants. The library covers a chat-first product (chat bubbles, file cards, summary panels), a sidebar-driven navigation shell, rich tab and chip systems, and a growing set of modular study-oriented cards (essay, flashcard, folder, file placeholder). The IP mascot character ({brand.ip-character}) provides warmth across empty, error, and onboarding states.
 
@@ -23,7 +24,7 @@ colors:
   neutral-200: "#c7c7ce"
   neutral-300: "#b0afba"
   neutral-400: "#9998a7"
-  neutral:     "#818193"
+  neutral:     "#828193"
   neutral-600: "#686776"
   neutral-700: "#4e4d58"
   neutral-800: "#34343b"
@@ -73,11 +74,22 @@ colors:
   info-800: "#313a66"
   info-900: "#181d33"
 
+  purple-50:  "#f5f3ff"
+  purple-100: "#ede9fe"
+  purple-200: "#ddd6fe"
+  purple-300: "#c4b5fd"
+  purple-400: "#a78bfa"
+  purple:     "#8b5cf6"
+  purple-600: "#7c3aed"
+  purple-700: "#5b21b6"
+  purple-800: "#4c1d95"
+  purple-900: "#2e1065"
+
   # ── Semantic — Text ────────────────────────────────────────
   text-primary:           "#1a1a1d"
   text-secondary:         "#34343b"
   text-secondary-mid:     "#686776"
-  text-tertiary:          "#818193"
+  text-tertiary:          "#828193"
   text-disabled:          "#b0afba"
   text-on-disabled:       "#f8f8f9"
   text-action:            "#4e4df4"
@@ -137,7 +149,7 @@ colors:
   # ── Semantic — Icon ────────────────────────────────────────
   icon-primary:           "#4e4df4"
   icon-secondary:         "#4e4d58"
-  icon-tertiary:          "#818193"
+  icon-tertiary:          "#828193"
   icon-action:            "#4e4df4"
   icon-on-action:         "#ffffff"
   icon-action-hover:      "#3e3ec3"
@@ -146,7 +158,7 @@ colors:
   icon-error:             "#d8001a"
   icon-info:              "#495698"
   icon-info-light:        "#7a90fe"
-  icon-disabled:          "#818193"
+  icon-disabled:          "#828193"
   icon-on-disabled:       "#b0afba"
 
 typography:
